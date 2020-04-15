@@ -1,0 +1,7 @@
+@import url(./_theme/table_cell_theme_dark.css);
+
+.table__cell {
+  list-style-type: none;
+  margin: 60px auto 0 auto;
+  width: 250px;
+}
