@@ -3,11 +3,12 @@
   text-decoration: none;
 }
 
-/* .header__link:hover {
+.header__link:hover {
   opacity: 0.5;
   transition: 1s;
-} */
-
-.header__link:transition {
-  opacity: 1s;
 }
+
+/* Is this what you want? Ive never seen :transition and Transition isn't even on this MDN list of pseudo classes. */
+/* .header__link:transition{
+  opacity: 1s;
+} */
