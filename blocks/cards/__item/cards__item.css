@@ -1,11 +1,12 @@
 .cards__item {
   margin-top: 60px;
+  margin-right: 100px;
   width: 240px;
   display: flex;
   flex-direction: column;
   list-style-type: none;
 }
 
-.cards__item:not(:nth-child(3)) {
-  margin-right: 100px;
+.cards__item:nth-child(3n + 3) {
+  margin-right: 0;
 }

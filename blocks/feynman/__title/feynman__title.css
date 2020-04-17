@@ -2,7 +2,7 @@
   font-size: 120px;
   font-weight: bold;
   line-height: 1.15;
-  width: 775px;
+  max-width: 775px;
   align-self: center;
   text-align: center;
   margin: 0;

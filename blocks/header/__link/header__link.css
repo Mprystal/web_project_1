@@ -3,7 +3,11 @@
   text-decoration: none;
 }
 
-.header__link:hover {
+/* .header__link:hover {
   opacity: 0.5;
   transition: 1s;
+} */
+
+.header__link:transition {
+  opacity: 1s;
 }
